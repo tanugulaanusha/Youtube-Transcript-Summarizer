@@ -25,21 +25,39 @@ The Chrome extension provides a clean and minimalistic UI.
 Users can generate the summary with a single click and view it within the extension.
 The UI also allows users to select a translation language from a dropdown menu and instantly view the translated summary.
 Technologies Used
-HTML, CSS, JavaScript: For creating the Chrome extension and frontend user interface.
+
+HTML, CSS, JavaScript:
+For creating the Chrome extension and frontend user interface.
 Flask: Used as the backend framework to handle API requests and data processing.
-YouTube Transcript API: For fetching video transcripts.
-Google Translation API: For translating the generated summaries into different languages.
-Natural Language Processing (NLP): To process and summarize the transcripts.
+
+YouTube Transcript API: 
+For fetching video transcripts.
+
+Google Translation API:
+For translating the generated summaries into different languages.
+
+Natural Language Processing (NLP): 
+To process and summarize the transcripts.
+
 How to Use
+
 Clone the Repository: Download the source code from GitHub.
+
 Install the Extension:
 Load the unpacked extension in Chrome by navigating to chrome://extensions/ and enabling developer mode.
+
 Click on "Load unpacked" and select the project folder.
+
 Run the Backend:
 Install the necessary Python dependencies using pip install -r requirements.txt.
 Run the Flask backend using python app.py.
+
 Activate the Extension: Open any YouTube video, click on the extension, and view the summarized transcript in your preferred language.
+
 Use Cases
+
 Content Summarization: Quickly understand the content of long YouTube videos.
+
 Multi-Language Support: Summarized content can be translated into various languages, making it accessible to a wider audience.
+
 This project aims to enhance the video consumption experience by providing quick, easy-to-read summaries and language translation for YouTube content, saving time and breaking language barriers.

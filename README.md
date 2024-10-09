@@ -5,21 +5,22 @@ Automatic Transcript Summarization: Uses Natural Language Processing (NLP) techn
 Multi-Language Translation: Integrates with the Google Translation API to translate the generated summaries into different languages based on user preference.
 Dynamic Summarization: Automatically generates concise summaries when the user clicks on the extension while watching a YouTube video.
 User-Friendly Interface: The extension provides an easy-to-use interface, allowing users to quickly view or copy the summary and choose the translation language.
-Project Workflow
-Transcript Retrieval:
 
+Project Workflow
+
+Transcript Retrieval:
 The extension utilizes the YouTube Transcript API to extract the transcript from the video.
 If a video contains multiple language subtitles, the user can select the language from which to generate the summary.
-NLP-Based Summarization:
 
+NLP-Based Summarization:
 The transcript text is processed using Natural Language Processing algorithms to identify the key points, filtering out non-essential details.
 Summarization techniques focus on reducing the transcript size while maintaining the core content of the video.
-Translation:
 
+Translation:
 After summarizing the transcript, the user can choose a language for translation.
 The Google Translation API is integrated to convert the summary into the selected language.
-User Interface:
 
+User Interface:
 The Chrome extension provides a clean and minimalistic UI.
 Users can generate the summary with a single click and view it within the extension.
 The UI also allows users to select a translation language from a dropdown menu and instantly view the translated summary.
